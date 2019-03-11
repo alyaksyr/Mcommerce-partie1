@@ -1,0 +1,122 @@
+{
+	"id": "e0761280-7541-4f5e-8726-7fcefc24bfa2",
+	"name": "TestsPostman",
+	"allTests": [],
+	"timestamp": "2019-03-11T16:49:17.901Z",
+	"collection_id": "bb66e93a-4592-4c2d-9fa6-0e18ed404f27",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "bb66e93a-4592-4c2d-9fa6-0e18ed404f27",
+		"name": "TestsPostman",
+		"description": "Collection Testspostman",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"192f89a3-9338-41eb-a2f0-b66b6ba59b21",
+			"db564801-27d8-4b0c-a540-65732a75be20"
+		],
+		"folders_order": [],
+		"owner": "6340691",
+		"favorite": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "http://localhost:9090/AdminProduits",
+			"id": "192f89a3-9338-41eb-a2f0-b66b6ba59b21",
+			"url": "http://localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"194"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "194",
+			"totalRequestTime": "194",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:9090/OrdreProduits",
+			"id": "db564801-27d8-4b0c-a540-65732a75be20",
+			"url": "http://localhost:9090/OrdreProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"55"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "55",
+			"totalRequestTime": "55",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 249,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "http://localhost:9090/AdminProduits",
+			"id": "192f89a3-9338-41eb-a2f0-b66b6ba59b21",
+			"url": "http://localhost:9090/AdminProduits",
+			"time": "2019-03-11T16:49:17.901Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "http://localhost:9090/OrdreProduits",
+			"id": "db564801-27d8-4b0c-a540-65732a75be20",
+			"url": "http://localhost:9090/OrdreProduits",
+			"time": "2019-03-11T16:49:17.901Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
