@@ -120,4 +120,10 @@ public class ProductController {
         return new ResponseEntity<Object>(produits, HttpStatus.OK);
     }
 
+    //Trier les produits par ordre alphabetique
+    @GetMapping("/OrdreProduits")
+    public  List<Product> trierProduitsParOrdreAlphabetique(){
+        List<Product> products = productDao.findAllByOrderByNomAsc();
+        return  products;
+    }
 }
